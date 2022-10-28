@@ -8,7 +8,7 @@ export default function Hitgall() {
 
   useEffect(() => {
     axios({
-      url: "http://localhost:8050/search/hit",
+      url: "http://43.201.15.34:8050/search/hit",
       method: "get",
     }).then((response) => {
       console.log(response.data);
@@ -22,7 +22,7 @@ export default function Hitgall() {
         <button
           onClick={() => {
             axios({
-              url: "http://localhost:8050/search/hit",
+              url: "http://43.201.15.34:8050/search/hit",
               method: "get",
             }).then((response) => {
               setHit(response.data.list);

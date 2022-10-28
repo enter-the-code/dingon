@@ -115,7 +115,7 @@ export const Board = (props) => {
     localStorage.setItem("list", JSON.stringify(b));
     setPage(1);
     axios
-      .get(`http://localhost:8050/gallery?name=${encodeURIComponent(name)}`)
+      .get(`http://43.201.15.34:8050/gallery?name=${encodeURIComponent(name)}`)
       .then((data) => {
         if (data.data.code == 400) {
           setErr(true);
@@ -139,7 +139,7 @@ export const Board = (props) => {
       }
       axios
         .get(
-          `http://localhost:8050/${takeurl}/list?page=${page}&name=${encodeURI(
+          `http://43.201.15.34:8050/${takeurl}/list?page=${page}&name=${encodeURI(
             name
           )}`
         )

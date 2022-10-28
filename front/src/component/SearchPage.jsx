@@ -52,7 +52,7 @@ export const SearchPage = (props) => {
 
     useEffect(() => {
         axios({
-            url: "http://localhost:8050/search/board",
+            url: "http://43.201.15.34:8050/search/board",
             method: "get",
             params:{name:encodeURI(content)},
             withCredentials: true,

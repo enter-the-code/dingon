@@ -8,7 +8,7 @@ const MainBoards = () => {
   let [hot, setHot] = useState([]);
   useEffect(() => {
     axios({
-      url: "http://localhost:8050/search/top4",
+      url: "http://43.201.15.34:8050/search/top4",
       method: "get",
       data: "",
       withCredentials: true

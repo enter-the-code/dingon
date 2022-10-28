@@ -59,7 +59,7 @@ function AssignModal({ senddata }) {
     };
 
     axios({
-      url: "http://localhost:8050/auth/signup",
+      url: "http://43.201.15.34:8050/auth/signup",
       method: "post",
       data: data,
     }).then((result) => {
@@ -81,7 +81,7 @@ function AssignModal({ senddata }) {
   };
   const checkIsAlready = () => {
     axios({
-      url: "http://localhost:8050/auth/emailCheck",
+      url: "http://43.201.15.34:8050/auth/emailCheck",
       method: "post",
       data: { email: Email },
     }).then((result) => {
@@ -119,7 +119,7 @@ function AssignModal({ senddata }) {
   };
   const checkIsAlreadyName = () => {
     axios({
-      url: "http://localhost:8050/auth/nickNameCheck",
+      url: "http://43.201.15.34:8050/auth/nickNameCheck",
       method: "post",
       data: { nickName: nickName },
       withCredentials: true,

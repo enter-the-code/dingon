@@ -13,7 +13,7 @@ import Footer from "./component/Footer";
 import Gaesi from "./component/gaesi";
 import Allgall from "./component/Allgall";
 import { display } from "@mui/system";
-const socket = io.connect('http://localhost:8050/count',{path: "/socket.io", cors: { origin: '*' }});
+const socket = io.connect('http://43.201.15.34:8050/count',{path: "/socket.io", cors: { origin: '*' }});
 const App = (props) => {
   const [userId, setUserId] = useState("");
   const [nickName, setNickName] = useState("");
@@ -37,7 +37,7 @@ const App = (props) => {
   }, []);
   useEffect(() => {
     axios
-      .get("http://localhost:8050/auth/isLoggedIn", { withCredentials: true })
+      .get("http://43.201.15.34:8050/auth/isLoggedIn", { withCredentials: true })
       .then((data) => {
         console.log(data.data);
         if (data.data.code === 200) {
@@ -49,12 +49,12 @@ const App = (props) => {
       });
   });
   useEffect(() => {
-    axios.get("http://localhost:8050/search/count").then((data) => {
+    axios.get("http://43.201.15.34:8050/search/count").then((data) => {
       setCount(data.data.count);
     });
   });
   // useEffect(async()=>{
-  //     const data = await axios("http://localhost:8050");
+  //     const data = await axios("http://43.201.15.34:8050");
   //     setValue(data.data.code);
   //     return ()=>{
   //       return ;

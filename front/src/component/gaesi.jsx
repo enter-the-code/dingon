@@ -38,7 +38,7 @@ const Gaesi = () => {
       console.log(input.files[0]);
       console.log(quillRef);
       axios({
-        url: "http://localhost:8050/post/img",
+        url: "http://43.201.15.34:8050/post/img",
         method: "post",
         data: formData,
         withCredentials: true,
@@ -93,7 +93,7 @@ const Gaesi = () => {
   useEffect(() => {
     console.log(postid);
     axios({
-      url: "http://localhost:8050/post/content",
+      url: "http://43.201.15.34:8050/post/content",
       method: "get",
       params: { postId: postid },
       withCredentials: true,
@@ -172,7 +172,7 @@ const Gaesi = () => {
               // console.log("해윙");
               
               axios({
-                url: "http://localhost:8050/post/delete",
+                url: "http://43.201.15.34:8050/post/delete",
                 method: "delete",
                 params: { postId: postid },
                 withCredentials: true,
@@ -214,7 +214,7 @@ const Gaesi = () => {
                 return;
               }
               axios({
-                url: "http://localhost:8050/post/update",
+                url: "http://43.201.15.34:8050/post/update",
                 method: "PATCH",
                 data: data,
                 withCredentials: true,

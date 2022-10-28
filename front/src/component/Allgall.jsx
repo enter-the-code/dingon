@@ -8,7 +8,7 @@ export default function Allgall() {
 
   useEffect(() => {
     axios({
-      url: "http://localhost:8050/gallery/all",
+      url: "http://43.201.15.34:8050/gallery/all",
       method: "get",
     }).then(response => {
       setAll(response.data.list);

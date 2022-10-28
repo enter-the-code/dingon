@@ -49,7 +49,7 @@ export default function Fix({ userId }) {
     }
 
     axios({
-      url: "http://localhost:8050/profile",
+      url: "http://43.201.15.34:8050/profile",
       method: "patch",
       data: data,
       withCredentials: true,
@@ -68,7 +68,7 @@ export default function Fix({ userId }) {
       return false;
     }
     axios({
-      url: "http://localhost:8050/auth/nickNameCheck",
+      url: "http://43.201.15.34:8050/auth/nickNameCheck",
       method: "post",
       withCredentials: true,
       data: { nickName: nickChange },

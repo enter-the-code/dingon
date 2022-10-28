@@ -81,7 +81,7 @@ const Show = ({ isLogin }) => {
   };
   useEffect(() => {
     axios({
-      url: "http://localhost:8050/post/content",
+      url: "http://43.201.15.34:8050/post/content",
       method: "get",
       params: { postId: id },
       withCredentials: true,
@@ -121,7 +121,7 @@ const Show = ({ isLogin }) => {
   useEffect(() => {
     console.log("page", page)
     axios({
-      url: "http://localhost:8050/comment/list",
+      url: "http://43.201.15.34:8050/comment/list",
       method: "get",
       params: { page: page, postId: id },
       withCredentials: true,
@@ -134,7 +134,7 @@ const Show = ({ isLogin }) => {
   const submit = () => {
     if (isLogin) {
       axios({
-        url: "http://localhost:8050/comment",
+        url: "http://43.201.15.34:8050/comment",
         method: "post",
         data: { postId: id, comment: writeC },
         withCredentials: true,
@@ -153,7 +153,7 @@ const Show = ({ isLogin }) => {
   const deletecomment = (e) => {
     console.log(e);
     axios({
-      url: "http://localhost:8050/comment",
+      url: "http://43.201.15.34:8050/comment",
       method: "delete",
       params: { commentId: e },
       withCredentials: true,
@@ -165,7 +165,7 @@ const Show = ({ isLogin }) => {
   const deletesubcomment = (e) => {
     console.log(e)
     axios({
-      url: "http://localhost:8050/comment/sub",
+      url: "http://43.201.15.34:8050/comment/sub",
       method: "delete",
       params: { commentId: e },
       withCredentials: true,

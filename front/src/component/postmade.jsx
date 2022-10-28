@@ -37,7 +37,7 @@ function PostMade() {
           console.log(input.files[0]);
           console.log(quillRef);
           axios({
-            url: "http://localhost:8050/post/img",
+            url: "http://43.201.15.34:8050/post/img",
             method: "post",
             data: formData,
             withCredentials:true
@@ -105,7 +105,7 @@ function PostMade() {
           return;
         }
         const result = await axios({
-          url: "http://localhost:8050/post/uploads",
+          url: "http://43.201.15.34:8050/post/uploads",
           method: "post",
           data: data,
           withCredentials:true

@@ -11,7 +11,7 @@ const SubComment = ({postId, commentId ,isLogin}) => {
     const submit=()=>{
         if(isLogin){
             axios({
-                url: "http://localhost:8050/comment/sub",
+                url: "http://43.201.15.34:8050/comment/sub",
                 method: "post",
                 data: { commentId: commentId, postId: postId,comment:subComment},
                 withCredentials: true,

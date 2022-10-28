@@ -7,7 +7,7 @@ import Swal from "sweetalert2";
 export default function IsLogined({ setIsLogin, nickname, userId }) {
   const logout = () => {
     axios({
-      url: "http://localhost:8050/auth/logout",
+      url: "http://43.201.15.34:8050/auth/logout",
       method: "post",
       withCredentials: true,
     }).then((response) => {

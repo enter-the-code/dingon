@@ -12,7 +12,7 @@ function NewBoard(){
     const [TxtLength, setTxtLength] = useState(0);
     const create = () => {
         axios({
-            url: "http://localhost:8050/gallery/add",
+            url: "http://43.201.15.34:8050/gallery/add",
             method: "post",
             withCredentials: true,
             data : {name : Name}
@@ -42,7 +42,7 @@ function NewBoard(){
             return false;
         }
         axios({
-            url: "http://localhost:8050/gallery/check",
+            url: "http://43.201.15.34:8050/gallery/check",
             method: "get",
             withCredentials: true,
             params : {name : encodeURI(Name)}

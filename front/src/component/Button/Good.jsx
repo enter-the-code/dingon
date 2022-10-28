@@ -33,7 +33,7 @@ export default function GoodBtn({isLogin,postId,setDisLike,dislike,like,setLike}
             if(isLogin){
             document.getElementById("Icon").style.color = "yellow";
             axios({
-              url: "http://localhost:8050/post/like",
+              url: "http://43.201.15.34/post/like",
               method: "post",
               data:{postId:postId},
               withCredentials: true,
@@ -65,7 +65,7 @@ export default function GoodBtn({isLogin,postId,setDisLike,dislike,like,setLike}
           if(isLogin){
             
           axios({
-            url: "http://localhost:8050/post/dislike",
+            url: "http://43.201.15.34/post/dislike",
             method: "post",
             data:{postId:postId},
             withCredentials: true,

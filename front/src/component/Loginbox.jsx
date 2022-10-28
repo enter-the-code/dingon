@@ -23,7 +23,7 @@ export default function Loginbox({
     };
 
     axios({
-      url: "http://localhost:8050/auth/login",
+      url: "http://43.201.15.34:8050/auth/login",
       method: "post",
       data: data,
       withCredentials: true,

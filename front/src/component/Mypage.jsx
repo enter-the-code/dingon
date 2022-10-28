@@ -14,7 +14,7 @@ import styled from "styled-components";
 export default function Mypage(userId, setUserId, nickname) {
   useEffect(() => {
     axios({
-      url: "http://localhost:8050/post/my",
+      url: "http://43.201.15.34:8050/post/my",
       method: "get",
       withCredentials: true,
     }).then((data) => {
@@ -104,7 +104,7 @@ export default function Mypage(userId, setUserId, nickname) {
   useEffect(() => {
     setPage(1);
     axios
-      .get(`http://localhost:8050/gallery?name=${encodeURIComponent(name)}`)
+      .get(`http://43.201.15.34:8050/gallery?name=${encodeURIComponent(name)}`)
       .then((data) => {
         if (data.data.code == 400) {
           setErr(true);
@@ -117,7 +117,7 @@ export default function Mypage(userId, setUserId, nickname) {
     if (err == false && total != 0) {
       axios
         .get(
-          `http://localhost:8050/gallery/list?page=${page}&name=${encodeURI(
+          `http://43.201.15.34:8050/gallery/list?page=${page}&name=${encodeURI(
             name
           )}`
         )
