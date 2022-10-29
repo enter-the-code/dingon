@@ -60,6 +60,7 @@ const PaginationBox = styled.div`
   }
 `;
 export const Board = (props) => {
+  
   const [checked, setCheck] = useState(false);
   const columns = [
     { id: "number", label: "번호", minWidth: 100 },
@@ -129,6 +130,7 @@ export const Board = (props) => {
       });
   }, [name,checked]);
   useEffect(() => {
+    window.location.reload();
     console.log("aaaaaaaaaaaaaaaaaa");
     if (err == false && total != 0) {
       let takeurl="gallery";
