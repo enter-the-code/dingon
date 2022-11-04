@@ -97,8 +97,7 @@
 - 프론트 엔드
     - 검색기능을 통해 게시글의 제목에서 일치한 항목이 한개라도 있다면 리스트를 받아오도록 구현
 
-
-            ![ezgif com-gif-maker-5](https://user-images.githubusercontent.com/84896918/199916909-16f19505-9900-4b23-a1ba-dc9018ded2fd.gif)
+![ezgif com-gif-maker-5](https://user-images.githubusercontent.com/84896918/199916909-16f19505-9900-4b23-a1ba-dc9018ded2fd.gif)
 
 
 
