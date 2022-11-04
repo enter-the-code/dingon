@@ -37,7 +37,8 @@
     - 유효성검사(reg_exp) 및 중복검사(axios)를 통해 회원가입의 고유성을 높힘
     - 검사를 통과하지 못하면 회원가입이 되지못하도록 버튼을 disabled로 설정한후 상태변화 라이브러리를 통해 변화
 
-![ezgif.com-gif-maker (21).gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/509f806d-65da-43d6-82dd-d5fd58f6f1af/ezgif.com-gif-maker_(21).gif)
+![ezgif com-gif-maker (21)](https://user-images.githubusercontent.com/84896918/199915664-7eaaf64a-cdf9-4921-93ed-e8a0e84d4b99.gif)
+
 
 **게시글 리스트를 보여주는 컴포넌트 (**  `JavaScript` `mui` `pagenation` `axios`)
 
