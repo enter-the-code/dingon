@@ -38,7 +38,8 @@
     - 검사를 통과하지 못하면 회원가입이 되지못하도록 버튼을 disabled로 설정한후 상태변화 라이브러리를 통해 변화
 
 
-            ![ezgif com-gif-maker (21)](https://user-images.githubusercontent.com/84896918/199915664-7eaaf64a-cdf9-4921-93ed-e8a0e84d4b99.gif)
+            ![ezgif com-gif-maker (21)](https://user-images.githubusercontent.com/84896918/199916675-35573eab-ca21-404b-bdec-84591986bbce.gif)
+
 
 
 
@@ -59,7 +60,8 @@
     - 벡엔드에서 받아온 게시글 내용을 화면에 띄워줌
     - 오른쪽 상단에 조회수 추천수 덧글수도 함께 띄워줌
 
-![ezgif.com-gif-maker (23).gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f8e9c252-ea3a-4807-92af-399576d6a166/ezgif.com-gif-maker_(23).gif)
+            ![ezgif com-gif-maker (23)](https://user-images.githubusercontent.com/84896918/199916712-c04d83f0-d911-4e93-bc2c-a7403cb41e12.gif)
+
 
 **게시글작성 컴포넌트 (**  `JavaScript` `mui` `게시판 api` `quill` `axios`)
 
@@ -70,7 +72,8 @@
     - 처음 이미지를 업로드하면 벡엔드에 요청을 보내 서버내에 저장하고 경로를 반환받아 img태그로 게시글에 붙여넣는 식으로 구현
     - 게시판 api는 태그를 반환하므로 그대로 데이터베이스에 저장
         
-        ![ezgif.com-gif-maker-5.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b51115a6-7c88-4019-8d66-9f99e431444c/ezgif.com-gif-maker-5.gif)
+            ![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/84896918/199916740-a3c3511c-bce0-4160-b409-f8630b7cb1f4.gif)
+
         
 
 **추천 기능 (**  `JavaScript` `mui` `axios`)
@@ -79,21 +82,25 @@
     - 추천과 비추천 기능을 mui의 버튼 컴포넌트를 사용해 꾸민후 벡엔드에 전달
     - 이미 그 글에 한번 추천한 사용자는 두번하지 못하도록 설정
 
-![ezgif.com-gif-maker-2.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/26b49f83-5b94-4070-8b84-2be22c36c4a9/ezgif.com-gif-maker-2.gif)
+            ![ezgif com-gif-maker-3](https://user-images.githubusercontent.com/84896918/199916767-a3838983-eff6-433f-8757-178ffaaa4076.gif)
+
 
 개념글,일반글 **기능 (**  `JavaScript` `mui` `axios`)
 
 - 프론트 엔드
     - 왼쪽상단에 일반일 경우 전체 리스트를 다 불러 오고 만약 개념글이라면 추천이 5개 이상인 게시글만 불러옴
+            ![ezgif com-gif-maker-4](https://user-images.githubusercontent.com/84896918/199916790-47540c5f-1794-4d6b-8897-f67daf603556.gif)
 
-![ezgif.com-gif-maker-3.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2da16ddd-ae80-4483-b946-5becb2940dc8/ezgif.com-gif-maker-3.gif)
 
 검색 **기능 (**  `JavaScript` `mui` `axios`)
 
 - 프론트 엔드
     - 검색기능을 통해 게시글의 제목에서 일치한 항목이 한개라도 있다면 리스트를 받아오도록 구현
 
-![ezgif.com-gif-maker-4.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7d1dca2f-4c2a-4d8a-b29b-1a24d2dc1739/ezgif.com-gif-maker-4.gif)
+
+            ![ezgif com-gif-maker-5](https://user-images.githubusercontent.com/84896918/199916909-16f19505-9900-4b23-a1ba-dc9018ded2fd.gif)
+
+
 
 ## 🖌️ 예상 이슈
 
