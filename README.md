@@ -38,7 +38,7 @@
     - 검사를 통과하지 못하면 회원가입이 되지못하도록 버튼을 disabled로 설정한후 상태변화 라이브러리를 통해 변화
 
 
-        ![ezgif com-gif-maker (21)](https://user-images.githubusercontent.com/84896918/199915664-7eaaf64a-cdf9-4921-93ed-e8a0e84d4b99.gif)
+            ![ezgif com-gif-maker (21)](https://user-images.githubusercontent.com/84896918/199915664-7eaaf64a-cdf9-4921-93ed-e8a0e84d4b99.gif)
 
 
 
@@ -50,7 +50,8 @@
         1. 해당 갤러리의 게시글의 총 개수를 받아옴(처음 한 번만)
         2. axios에 갤러리 및 페이지 정보를 함께 보내어 원하는 데이터를 받아와서 렌더링 함
 
-![ezgif.com-gif-maker (22).gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5d9a545-ea50-4d07-a839-4d32bb3886e8/ezgif.com-gif-maker_(22).gif)
+            ![ezgif com-gif-maker (22)](https://user-images.githubusercontent.com/84896918/199916545-c314bc1f-fa46-4ce3-b691-f467ca91157f.gif)
+
 
 **게시글을 보여주는 컴포넌트 (**  `JavaScript` `mui` `axios`)
 
