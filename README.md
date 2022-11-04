@@ -37,8 +37,7 @@
     - 유효성검사(reg_exp) 및 중복검사(axios)를 통해 회원가입의 고유성을 높힘
     - 검사를 통과하지 못하면 회원가입이 되지못하도록 버튼을 disabled로 설정한후 상태변화 라이브러리를 통해 변화
 
-
-            ![ezgif com-gif-maker (21)](https://user-images.githubusercontent.com/84896918/199916675-35573eab-ca21-404b-bdec-84591986bbce.gif)
+![ezgif com-gif-maker (21)](https://user-images.githubusercontent.com/84896918/199916675-35573eab-ca21-404b-bdec-84591986bbce.gif)
 
 
 
@@ -51,7 +50,7 @@
         1. 해당 갤러리의 게시글의 총 개수를 받아옴(처음 한 번만)
         2. axios에 갤러리 및 페이지 정보를 함께 보내어 원하는 데이터를 받아와서 렌더링 함
 
-            ![ezgif com-gif-maker (22)](https://user-images.githubusercontent.com/84896918/199916545-c314bc1f-fa46-4ce3-b691-f467ca91157f.gif)
+![ezgif com-gif-maker (22)](https://user-images.githubusercontent.com/84896918/199916545-c314bc1f-fa46-4ce3-b691-f467ca91157f.gif)
 
 
 **게시글을 보여주는 컴포넌트 (**  `JavaScript` `mui` `axios`)
@@ -60,7 +59,7 @@
     - 벡엔드에서 받아온 게시글 내용을 화면에 띄워줌
     - 오른쪽 상단에 조회수 추천수 덧글수도 함께 띄워줌
 
-            ![ezgif com-gif-maker (23)](https://user-images.githubusercontent.com/84896918/199916712-c04d83f0-d911-4e93-bc2c-a7403cb41e12.gif)
+![ezgif com-gif-maker (23)](https://user-images.githubusercontent.com/84896918/199916712-c04d83f0-d911-4e93-bc2c-a7403cb41e12.gif)
 
 
 **게시글작성 컴포넌트 (**  `JavaScript` `mui` `게시판 api` `quill` `axios`)
@@ -72,7 +71,7 @@
     - 처음 이미지를 업로드하면 벡엔드에 요청을 보내 서버내에 저장하고 경로를 반환받아 img태그로 게시글에 붙여넣는 식으로 구현
     - 게시판 api는 태그를 반환하므로 그대로 데이터베이스에 저장
         
-            ![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/84896918/199916740-a3c3511c-bce0-4160-b409-f8630b7cb1f4.gif)
+![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/84896918/199916740-a3c3511c-bce0-4160-b409-f8630b7cb1f4.gif)
 
         
 
@@ -81,15 +80,16 @@
 - 프론트 엔드
     - 추천과 비추천 기능을 mui의 버튼 컴포넌트를 사용해 꾸민후 벡엔드에 전달
     - 이미 그 글에 한번 추천한 사용자는 두번하지 못하도록 설정
-
-            ![ezgif com-gif-maker-3](https://user-images.githubusercontent.com/84896918/199916767-a3838983-eff6-433f-8757-178ffaaa4076.gif)
+![ezgif com-gif-maker-3](https://user-images.githubusercontent.com/84896918/199916767-a3838983-eff6-433f-8757-178ffaaa4076.gif)
 
 
 개념글,일반글 **기능 (**  `JavaScript` `mui` `axios`)
 
 - 프론트 엔드
     - 왼쪽상단에 일반일 경우 전체 리스트를 다 불러 오고 만약 개념글이라면 추천이 5개 이상인 게시글만 불러옴
-            ![ezgif com-gif-maker-4](https://user-images.githubusercontent.com/84896918/199916790-47540c5f-1794-4d6b-8897-f67daf603556.gif)
+
+
+![ezgif com-gif-maker-4](https://user-images.githubusercontent.com/84896918/199916790-47540c5f-1794-4d6b-8897-f67daf603556.gif)
 
 
 검색 **기능 (**  `JavaScript` `mui` `axios`)
