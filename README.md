@@ -80,6 +80,8 @@
 - 프론트 엔드
     - 추천과 비추천 기능을 mui의 버튼 컴포넌트를 사용해 꾸민후 벡엔드에 전달
     - 이미 그 글에 한번 추천한 사용자는 두번하지 못하도록 설정
+ 
+ 
 ![ezgif com-gif-maker-3](https://user-images.githubusercontent.com/84896918/199916767-a3838983-eff6-433f-8757-178ffaaa4076.gif)
 
 
